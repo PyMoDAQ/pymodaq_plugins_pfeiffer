@@ -5,7 +5,7 @@ from pymodaq.control_modules.viewer_utility_classes import DAQ_Viewer_base, como
 from pymodaq.utils.parameter import Parameter
 
 import pylablib as pylablib
-from pymodaq_plugins_alcatel.hardware.ACM1000_wrapper import ACM1000
+from pymodaq_plugins_pfeiffer.hardware.ACM1000_wrapper import ACM1000
 
 
 class DAQ_0DViewer_ACM1000(DAQ_Viewer_base):
